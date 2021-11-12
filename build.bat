@@ -1,0 +1,1 @@
+gcc .\src\main.c .\src\waspsim\wasp.c .\src\waspsim\window.c .\src\waspsim\structs.c .\src\waspsim\keyboard.c .\src\waspsim\util.c .\src\particles.c -o .\build\sim.exe -I .\include -L .\lib -lSDL2 -lSDL2main && start cmd /C .\build\sim.exe && exit
